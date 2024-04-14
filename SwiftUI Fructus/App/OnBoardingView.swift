@@ -11,13 +11,14 @@ struct OnBoardingView: View {
     
     // MARK: - PROPERTIES 6
     
+    var fruits: [Fruit] = fruitsData
     // MARK: - BODY
     var body: some View {
         TabView {
             
             
             ForEach(0 ..< 5) { item in
-                FruitCardView()
+                FruitCardView(fruit: fruits[item])
             }
             
         } // TAB:

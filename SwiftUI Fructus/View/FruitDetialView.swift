@@ -52,6 +52,7 @@ struct FruitDetialView: View {
                             .multilineTextAlignment(.leading)
                         
                         // LINK
+                        SourceLinkView()
                         
                     }
                             .padding(.horizontal, 20)

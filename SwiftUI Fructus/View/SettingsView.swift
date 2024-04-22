@@ -8,11 +8,33 @@
 import SwiftUI
 
 struct SettingsView: View {
+    // MARK: - PROPERTIES
+    
+    @Environment(\.presentationMode) var presentationMode
+    // MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+       
+        NavigationView {
+            
+            ScrollView(.vertical, showsIndicators: false ) {
+                
+                VStack (spacing: 20) {
+                    
+                    
+                }
+                .navigationBarTitle(("Settings"), displayMode: .large)
+                .navigationBarItems (trailing: Button(action: {
+                    presentationMode.wrappedValue.dismiss()
+                }, label: {
+                    Image(systemName: "xmark")
+                }))
+            } //: SCROLLVIEW
+        } //: NAVIATION VIEW
     }
 }
 
 #Preview {
     SettingsView()
+        .preferredColorScheme(.dark)
+        
 }

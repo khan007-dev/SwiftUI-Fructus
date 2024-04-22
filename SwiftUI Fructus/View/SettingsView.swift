@@ -20,6 +20,29 @@ struct SettingsView: View {
                 
                 VStack (spacing: 20) {
                     
+                    // MARK: - SECTION 1
+                    
+                    GroupBox(label: 
+                             SettingLabelView(labelTitle: "Fructus", labelImage: "info.circle")) {
+                        
+                        Divider().padding(.vertical, 4)
+                        HStack {
+                          
+                            HStack (alignment: .center, spacing: 10) {
+                                Image(.logo)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 80, height: 80)
+                                    .cornerRadius(9)
+                                Text("Most Fruits are naturally low in fat, sodium and calories.")
+                                    .font(.footnote)
+                            }
+                        }
+                    }
+                    
+                    // MARK: - SECTION 2
+                    // MARK: - SECTION 3
+                    
                     
                 }
                 .navigationBarTitle(("Settings"), displayMode: .large)

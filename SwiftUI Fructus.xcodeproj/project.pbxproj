@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C92D73D42BD63A07000D0658 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D73D32BD63A07000D0658 /* SettingsView.swift */; };
+		C92D73D62BD63DB9000D0658 /* SettingLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D73D52BD63DB9000D0658 /* SettingLabelView.swift */; };
 		C94095F62BCA6029001F4E10 /* SwiftUI_FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94095F52BCA6029001F4E10 /* SwiftUI_FructusApp.swift */; };
 		C94095F82BCA6029001F4E10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94095F72BCA6029001F4E10 /* ContentView.swift */; };
 		C94095FA2BCA602B001F4E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94095F92BCA602B001F4E10 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		C92D73D32BD63A07000D0658 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C92D73D52BD63DB9000D0658 /* SettingLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLabelView.swift; sourceTree = "<group>"; };
 		C94095F22BCA6029001F4E10 /* SwiftUI Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Fructus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94095F52BCA6029001F4E10 /* SwiftUI_FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FructusApp.swift; sourceTree = "<group>"; };
 		C94095F72BCA6029001F4E10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				C94096BA2BD01CA0001F4E10 /* SourceLinkView.swift */,
 				C940970D2BD163E7001F4E10 /* FruitNutrientsView.swift */,
 				C92D73D32BD63A07000D0658 /* SettingsView.swift */,
+				C92D73D52BD63DB9000D0658 /* SettingLabelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92D73D62BD63DB9000D0658 /* SettingLabelView.swift in Sources */,
 				C94096B72BD00D88001F4E10 /* FruitDetialView.swift in Sources */,
 				C94096BB2BD01CA0001F4E10 /* SourceLinkView.swift in Sources */,
 				C94096522BCBE0CC001F4E10 /* FruitData.swift in Sources */,
